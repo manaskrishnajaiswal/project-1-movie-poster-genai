@@ -11,6 +11,8 @@ This project demonstrates how to build a serverless application using AWS Lambda
 3. **Amazon Bedrock** – Accesses the Stability Diffusion model to generate images from prompts.
 4. **API Gateway** – REST interface to send prompts and retrieve image links.
 
+![AWS Architecture Example](https://movie-poster-design-0101-abc.s3.us-east-1.amazonaws.com/Movie+Poster+Design+-+GenAI.png)
+
 ---
 
 ## 📦 Features
@@ -37,7 +39,7 @@ This project demonstrates how to build a serverless application using AWS Lambda
 
 - AWS Account with access to:
 
-  - Amazon Bedrock (Stability Diffusion model)
+  - Amazon Bedrock (Titan Image Generator G1 model)
   - Amazon S3
   - AWS Lambda
   - API Gateway

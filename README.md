@@ -75,8 +75,9 @@ client_bedrock = boto3.client('bedrock-runtime')
 client_s3 = boto3.client('s3')
 
 def lambda_handler(event, context):
+    # print("event: ", event)
 #3. Store the input data (prompt) in a variable
-    input_prompt=event['prompt']
+    input_prompt=json.loads(event['body'])['prompt']
     print(input_prompt)
 
 #4. Create a Request Syntax to access the Bedrock Service
